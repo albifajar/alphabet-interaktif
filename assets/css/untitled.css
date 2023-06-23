@@ -1,0 +1,16 @@
+img {
+}
+
+img {
+}
+
+.img-thumbnail-a {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.btn {
+  font-size: 32pt;
+}
+
