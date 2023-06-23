@@ -46,7 +46,7 @@
         <div class="row mx-auto gap-3 mt-md-5" x-data="{ alphabet: 'abcdefghijklmnopqrstuvwxyz' }">
             <template x-for="letter in alphabet">
                 <div class="col d-flex justify-content-center align-content-center">
-                    <button x-text="letter" class="btn btn-primary col-12" type="button" @click="speak(letter)">A</button>
+                    <button x-text="letter" class="btn btn-primary col-12 text-uppercase" type="button" @click="speak(letter)">A</button>
                 </div>
             </template>
         </div>
